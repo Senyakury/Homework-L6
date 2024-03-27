@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <form action="">
+            <div class="div1">
+                <label for="PIB">Ваше ПІБ <b style="color:#fb8c3c;">*</b></label>
+                <input type="text" name="" id="PIB" placeholder="Ваша Відповідь" required>
+            </div>
+            <div class="div2">
+                <label>Ваша Стать <b style="color:#fb8c3c;">*</b></label>
+                <div>
+                    <div>
+                        <input type="radio" id="radio1" name="Gender" required/>
+                        <label for="radio1">Чоловік</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="radio2" name="Gender" required/>
+                        <label for="radio2">Жінка</label>
+                    </div>
+                </div>
+            </div>
+            <div class="div3">
+                <label for="age">Ваш Вік <b style="color:#fb8c3c;" >*</b></label>
+                <input type="number" id="age" placeholder="Ваша Відповідь" max="120" required>
+            </div>
+            <div class="div4">
+                <label>Чи вважаєте ви сeбе хорошою людиною? <b style="color:#fb8c3c;" maxlength="3">*</b></label>
+                <div>
+                    <div>
+                        <input type="radio" name="feel" id="Yes" required>
+                        <label for="Yes">Так</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="feel" id="Maybe" required>
+                        <label for="Maybe">Можливо</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="feel" id="No" required>
+                        <label for="No">Ні</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="feel" id="NotSay" required>
+                        <label for="NotSay">Я б не хотів говорити</label>
+                    </div>
+                </div>
+            </div>
+            <div class="div5">
+                <label>Ваше відношення до людей <b style="color:#fb8c3c;" >*</b></label>
+                <div>
+                    <span>Я не дуже люблю їх</span>
+                    <div>
+                        <div> 
+                            <label for="r1">1</label>
+                            <input type="radio" name="ppl" id="r1" required>
+                        </div>
+                        <div> 
+                            <label for="r2">2</label>
+                            <input type="radio" name="ppl" id="r2" required>
+                        </div>
+                        <div> 
+                            <label for="r3">3</label>
+                            <input type="radio" name="ppl" id="r3" required>
+                        </div>
+                        <div>
+                            <label for="r4">4</label>
+                            <input type="radio" name="ppl" id="r4" required>
+                        </div>
+                        <div> 
+                            <label for="r5">5</label>
+                            <input type="radio" name="ppl" id="r5" required>
+                        </div>
+                    </div>
+                    <span>Я обожнюю з ними спілкуватися</span>
+                </div>
+            </div>
+            <div class="endbuttons">
+                <input type="submit" value="Відправити">
+                <input type="reset" value="Очистити Форму">
+            </div>
+        </form>
+</body>
+</html>

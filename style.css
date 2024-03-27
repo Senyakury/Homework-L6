@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(228, 210, 214);
+    font-size: 17px;
+}
+form{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+form>div{
+    width: 90%;
+    height: 90px;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 20px;
+    background-color:white ;
+}
+.div1,.div3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.div1 input,.div3 input{
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    padding-bottom: 5px;
+}
+.div2 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    padding-bottom: 5px;
+    justify-content: start;
+
+}
+.div2{
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px;
+}
+.div2>div,.div4>div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+}
+.div4{
+    height: 160px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px;
+}
+.endbuttons{
+    width: 90%;
+    margin: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+input[type="submit"]{
+    background-color:white ;
+    border: 0;
+    width: 120px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px black;
+    color: rgb(150, 0, 150);
+    cursor: pointer;
+    transition: 0.3s;
+}
+input[type="submit"]:hover{
+    transform: scale(0.99);
+    margin-right: 2px;
+    margin-top: 1px;
+    color: blueviolet;
+}
+input[type="reset"]{
+    background-color:transparent ;
+    border: 0;
+    width: 120px;
+    border-radius: 5px;
+    color: rgb(150, 0, 150);
+    cursor: pointer;
+    transition: 0.3s;
+}
+input[type="reset"]:hover{
+    color: blueviolet;
+}
+
+
+.div5{
+    height: 120px;
+    padding-top: 20px
+}
+.div5>div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.div5>div>div{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+    gap: 10px;
+}
+.div5>div>span:first-child{
+    margin-left: 10px;
+}
+.div5>div>div>div{
+    display: flex;
+    flex-direction: column;
+}
+.div5>div>div>div>label{
+    text-align: center;
+    margin-bottom: 15px;
+}
+input[type="text"]::placeholder,input[type="number"]::placeholder{
+    position: relative;
+    top: 3px;
+}
